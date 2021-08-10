@@ -1,0 +1,151 @@
+body{
+  text-align: center;
+  background-color: #101010;
+  font-family: Orbitron;
+  color: #FFF338;
+}
+
+nav{
+  background-color: #101010;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF338;
+  text-shadow: 2px 2px #B21F66;
+}
+
+.navTitle{
+  color: #FFF338;
+  text-shadow: 2px 2px #B21F66;
+}
+
+span{
+  color: #0CECDD;
+  text-shadow: 2px 2px #B21F66;
+  font-size: 20px;
+}
+
+.bar{
+  color: #FFF338;
+  text-shadow: 2px 2px #B21F66;
+  width: 100%;
+}
+
+.streamingServices{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.links{
+  color: #FFF338;
+  text-shadow: 2px 2px #B21F66;
+  line-height: 1.5;
+  font-size: 40px;
+
+}
+
+.releaseDate{
+  color: #0CECDD;
+  text-shadow: 2px 2px #B21F66;
+  line-height: 1.5;
+
+}
+
+.august{
+  color: #FF449F;
+  text-shadow: 2px 2px #0CECDD;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+
+}
+
+
+
+button{
+
+}
+
+.laCosaArt{
+  width: 400px;
+  height: auto;
+  padding: 1rem 0 3rem 0;
+  border-radius: 30%;
+}
+
+.laCosaSection{
+  padding-bottom: 8rem;
+}
+
+.soyLatinoArt{
+  width: 400px;
+  height: auto;
+  padding: 1rem 0 3rem 0;
+  border-radius: 30%;
+}
+
+.videoclip{
+  color: #0CECDD;
+  text-shadow: 2px 2px #B21F66;
+
+}
+
+.elements{
+  padding: 2rem 0;
+}
+
+.soyLatinoElements{
+  width: 150px;
+  height: auto;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+
+.soyLatinoSection{
+  padding-bottom: 4rem;
+}
+
+.followUsOn{
+  color: #0CECDD;
+  text-shadow: 2px 2px #B21F66;
+  line-height: 1.5;
+  position: relative;
+  top: 20%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.followUsOnText{
+  font-size: 40px;
+}
+
+.copyright{
+  color: #FFF338;
+  text-shadow: 2px 2px #B21F66;
+}
+
+footer{
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1028px) {}
+
+
+.container {
+display: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
